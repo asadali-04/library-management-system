@@ -33,6 +33,14 @@ The dashboard displays important information at a glance, including:
 - Automatically update available book copies
 - Store library information using JSON
 
+## Development Note
+
+The original Library Management System logic and terminal-based codebase were created by me.
+
+I then used LLM-assisted development to help redesign the project as a modern Streamlit web application. The LLM support was used to improve the user interface, dashboard layout, styling, and to adapt the terminal workflow into an interactive web experience.
+
+The project’s core idea, features, and original Python logic are my own work.
+
 ## Technologies Used
 
 - Python
