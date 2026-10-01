@@ -1,0 +1,72 @@
+{
+    "books": [
+        {
+            "id": "B-WDXBK",
+            "title": "Peer-E-Kamil",
+            "author": "Umera Ahmad",
+            "total_copies": 25,
+            "available_copies": 24,
+            "added_on": "2026-10-10/01/26 17:10:16"
+        },
+        {
+            "id": "B-M7REF",
+            "title": "Aab-E-Hayat",
+            "author": "Umera Ahmad",
+            "total_copies": 30,
+            "available_copies": 29,
+            "added_on": "2026-10-10/01/26 17:11:27"
+        },
+        {
+            "id": "B-JGL0X",
+            "title": "The Alchemist",
+            "author": "Paulo Coelho",
+            "total_copies": 50,
+            "available_copies": 49,
+            "added_on": "2026-10-01 23:23:37"
+        }
+    ],
+    "members": [
+        {
+            "id": "M-BEP0F",
+            "name": "Asad",
+            "email": "asadali786@gmail.com",
+            "borrowed": []
+        },
+        {
+            "id": "M-ARV94",
+            "name": "Zaid",
+            "email": "zaidkhan@gmail.com",
+            "borrowed": [
+                {
+                    "book_id": "B-JGL0X",
+                    "title": "The Alchemist",
+                    "borrowed_on": "2026-10-01 23:23:46"
+                }
+            ]
+        },
+        {
+            "id": "M-6WOAZ",
+            "name": "Abdur Rahman",
+            "email": "abdurrahman786@gmail.com",
+            "borrowed": [
+                {
+                    "book_id": "B-WDXBK",
+                    "title": "Peer-E-Kamil",
+                    "borrowed_on": "2026-10-01 23:21:38"
+                }
+            ]
+        },
+        {
+            "id": "M-OQD0R",
+            "name": "Najaf Hussain",
+            "email": "najafhussain786@gmail.com",
+            "borrowed": [
+                {
+                    "book_id": "B-M7REF",
+                    "title": "Aab-E-Hayat",
+                    "borrowed_on": "2026-10-01 23:26:36"
+                }
+            ]
+        }
+    ]
+}
